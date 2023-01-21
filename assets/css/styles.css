@@ -382,21 +382,21 @@ body.dark-theme {
   justify-content: center;
 }
 
-/* .home__orbe {
+.home__orbe {
   width: 265px;
   height: 284px;
   background: linear-gradient(180deg,
                     hsl(0, 0%, 16%) 93%,
                     hsl(0, 0%, 67%) 100%);
   border-radius: 135px 135px;
-} */
+}
 
 .home__img {
   position: absolute;
   width: 250px;
   height: 300px;
   overflow: hidden;
-  border-radius: /* 125px 125px */ /* 12px 12px */;
+  border-radius: 125px 125px 12px 12px;
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
@@ -982,8 +982,8 @@ body.dark-theme {
     grid-template-columns: repeat(2, 1fr);
     padding-top: 2rem;
   }
- /*  .home__orbe {
-    align-self: flex-end; */
+  .home__orbe {
+    align-self: flex-end;
   }
   .home__data {
     padding-bottom: 2rem;
